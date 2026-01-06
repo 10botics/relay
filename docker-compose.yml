@@ -1,0 +1,18 @@
+services:
+  relay:
+    build: .
+    restart: always
+    environment:
+      - VIRTUAL_HOST=relay.10botics.co
+      - TZ=Asia/Hong_Kong
+      - PORT=8080
+      - ALLOWED_DOMAINS=as-apia.coolkit.cc
+      - LOG_LEVEL=INFO
+      - REQUEST_TIMEOUT=30
+    volumes:
+      - ./logs:/app/logs
+
+networks:
+  default:
+    name: docker05
+    external: true
