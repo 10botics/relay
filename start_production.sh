@@ -44,9 +44,9 @@ if docker-compose ps | grep -q "Up"; then
     docker-compose ps
     echo ""
     echo "🔗 Production endpoints (via nginx-proxy):"
-    echo "   - https://relay.10botics.co/health"
-    echo "   - https://relay.10botics.co/"
-    echo "   - https://relay.10botics.co/relay"
+    echo "   - https://relay.10botics.com/health"
+    echo "   - https://relay.10botics.com/"
+    echo "   - https://relay.10botics.com/relay"
     echo ""
     echo "📝 View logs:"
     echo "   docker-compose logs -f relay"

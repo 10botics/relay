@@ -57,7 +57,7 @@ A Docker-based HTTP proxy server that relays HTTP requests to HTTPS endpoints fo
    curl http://localhost:8080/health
    
    # Production (via nginx-proxy)
-   curl https://relay.10botics.co/health
+   curl https://relay.10botics.com/health
    ```
 
 ## Usage

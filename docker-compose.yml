@@ -3,7 +3,7 @@ services:
     build: .
     restart: always
     environment:
-      - VIRTUAL_HOST=relay.10botics.co
+      - VIRTUAL_HOST=relay.10botics.com
       - TZ=Asia/Hong_Kong
       - PORT=8080
       - ALLOWED_DOMAINS=as-apia.coolkit.cc
